@@ -81,7 +81,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         ),
                         onChanged: (val) {
                           setState(() {
-                            email = val;
+                            fullName = val;
                           });
                         },
 
